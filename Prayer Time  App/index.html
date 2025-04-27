@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Islamic Prayer Time App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+</head>
+<body>
+  <nav>
+    <a href="/home" target="_self">Home</a>
+    <a href="/prayer-times" target="_self">Prayer Times</a>
+    <a href="/qibla-direction" target="_self">Qibla Direction</a>
+    <a href="/duas" target="_self">Duas</a>
+    <a href="/notifications" target="_self">Notifications</a>
+    <a href="/settings" target="_self">Settings</a>
+    <a href="/about" target="_self">About</a>
+    <a href="/contact" target="_self">Contact</a>
+  </nav>
+  
+  <header>
+    <h1>Islamic Prayer Time App</h1>
+    <p>
+      Prayer (Salah) five times a day is the foundation of a Muslim's faith and a direct link between the servant and Allah. The Prophet Muhammad (ﷺ) said: 
+      <strong>"The first matter that the slave will be brought to account for on the Day of Judgment is the prayer. If it is sound, then the rest of his deeds will be sound. And if it is bad, then the rest of his deeds will be bad."</strong> 
+      (Sunan al-Tirmidhi 413). Regular prayer purifies the heart, strengthens the soul, and keeps a person away from sin.
+    </p>
+    <img src="image/image-1.png" alt="Muslims praying at a mosque">
+  </header>
+  
+  <section>
+    <table>
+      <tr>
+        <th colspan="2">Prayer Times</th>
+      </tr>
+      <tr>
+        <th>Location</th>
+        <td><input type="text" placeholder="Enter your location" id="locationInput"></td>
+      </tr>
+      <tr>
+        <th>Default Location</th>
+        <td id="defaultLocation">Lucknow, India</td>
+      </tr>
+      <tr>
+        <th>Prayer</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td>Fajr</td>
+        <td>6:00 AM</td>
+      </tr>
+      <tr>
+        <td>Dhuhr</td>
+        <td>1:00 PM</td>
+      </tr>
+      <tr>
+        <td>Asr</td>
+        <td>4:30 PM</td>
+      </tr>
+      <tr>
+        <td>Maghrib</td>
+        <td>6:15 PM</td>
+      </tr>
+      <tr>
+        <td>Isha</td>
+        <td>7:30 PM</td>
+      </tr>
+    </table>
+    <button id="getTimesBtn">Get Prayer Times</button>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/qibla">Qibla Finder</a></li>
+          <li><a href="/duas">Daily Duas</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>About</h3>
+        <p>An open-source project to help Muslims track prayer times accurately.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Islamic Prayer Time App. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="main.js"></script>
+  
+</body>
+</html>
